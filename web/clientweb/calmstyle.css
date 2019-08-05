@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'coneria';
+  src: url(fonts/Demo_ConeriaScript.ttf)
+}
+
+#welcome {
+  font-family: coneria;
+  font-size: 25px;
+  background-color: #DAB6FC;
+  padding: 15px;
+}
+
+#beach {
+  height:100%;
+  width:100%;
+}
+
+#flower {
+  height:100%;
+  width:100%;
+}
+
+#forest2 {
+  height:100%;
+  width:100%;
+}
+
+#rain {
+  height:100%;
+  width:100%;
+}
+
+#rainforest {
+  height:100%;
+  width:100%;
+}
+
+#farm {
+  height:100%;
+  width:100%;
+}
+
+#africa {
+  height:100%;
+  width:100%;
+}
+
+#night {
+  height:100%;
+  width:100%;
+}
+
+#turtle {
+  height:100%;
+  width:100%;
+}
+
+#pig {
+  height:100%;
+  width:100%;
+}

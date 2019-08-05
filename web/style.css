@@ -1,0 +1,180 @@
+/* h1{font-size:30;} */
+
+/* color palette #E26D5A,EFA8B8,D7BBA8,BBB09B,3E2A35
+#FE5F55,F0B67F,D6D1B1,C7EFCF,EEF5DB
+#75DBCD,C9DBBA,DCDBA8,F5CDA7,FAA381*/
+
+@font-face {
+  font-family: 'roboto';
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+h2{color:#E26D5A}
+body{
+  color:#FE5F55;
+  font-family: roboto;
+}
+
+body:hover {
+    color:#EEF5DB;
+}
+
+#header {
+  background-color: #75DBCD;
+  color: white;
+  padding: 30px;
+  font-size:70px;
+  height:100px;
+}
+
+#me {
+    float: right;
+    height: 425px;
+    width: 425px;
+
+  /* background-color: rgb(157, 124, 200); */
+}
+
+.fcclaphotos {
+  height: 60%
+}
+
+#abouttitle{
+  color:#F0B67F;
+  text-align: center;
+  font-size: 30px;
+  font-family: roboto;
+}
+
+/* div{
+  column-count: 2;
+} */
+
+.columnleft {
+  float: left;
+  width: 50%;
+
+}
+
+.columnright {
+  float: right;
+  width: 50%;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vert {
+  transform: rotate(90deg);
+  float:right;
+  float:bottom;
+}
+
+#fccla {
+  color:red;
+  text-align: center;
+  font-size: 30px;
+  font-family: roboto;
+}
+
+#choir {
+  text-align: center;
+  color: purple;
+  font-size: 30px;
+  font-family: roboto;
+}
+
+img {
+  height: 40%;
+   width: 40%;
+
+}
+
+/* #wrapper {
+  padding: 5px;
+  font-size: 40px;
+  border: 20px solid rgb(0,0,0);
+} */
+
+#about{
+  padding: 10px;
+  /* border: 10px solid rgb(0,0,0); */
+  font-size: 20px;
+  color: black;
+  background-color: #93748A;
+  height: 170px;
+  /* EFA8B8; */
+}
+
+#travel{
+  text-align: center;
+  color: teal;
+  font-size: 30px;
+  font-family: roboto;
+}
+
+#gwc{
+  text-align: center;
+  color: blue;
+  font-size: 30px;
+  font-family: roboto;
+}
+
+#aboutfccla{
+  padding: 10px;
+  /* border: 10px solid rgb(0,0,0); */
+  font-size: 20px;
+  color: black;
+  background-color: #B6D6CC
+  /* E3D7FF; */
+  /* #D7BBA8; */
+}
+
+#aboutchoir{
+  padding: 10px;
+  /* border: 10px solid rgb(0,0,0); */
+  font-size: 20px;
+  color: black;
+  background-color: #AFA2FF;
+  /* F5CDA7; */
+}
+
+#aboutgwc{
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  background-color: #7A89C2;
+  /* C9DBBA; */
+}
+
+#abouttravel{
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  background-color: #ABD2FA
+  /* 72788D; */
+  /* DCDBA8; */
+}
+/*
+.clearfix {
+  overflow: auto;
+}
+ */
+
+
+#buttonlooks {
+  background-color: #C7EFCF;
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  float: bottom;
+  float: left;
+}
+
+button:hover{
+  background-color: purple
+}
